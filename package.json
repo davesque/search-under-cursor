@@ -5,7 +5,7 @@
 	"icon": "icon.png",
 	"publisher": "DavidSanders",
 	"repository": "https://github.com/davesque/search-under-cursor",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.35.0"
 	},
