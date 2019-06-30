@@ -2,6 +2,8 @@
 
 Triggers "Find in Files" action with the word under the cursor.
 
-## Features
+## Usage
+
+![](search-under-cursor.mov.gif)
 
 To use, bind a key to the `extension.searchUnderCursor` action.
