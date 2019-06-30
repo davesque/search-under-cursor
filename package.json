@@ -2,6 +2,7 @@
 	"name": "search-under-cursor",
 	"displayName": "Search Under Cursor",
 	"description": "Triggers project-wide search with the word under the cursor.",
+	"icon": "icon.png",
 	"publisher": "DavidSanders",
 	"repository": "https://github.com/davesque/search-under-cursor",
 	"version": "0.0.1",
