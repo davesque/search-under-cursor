@@ -5,7 +5,7 @@
 	"icon": "icon.png",
 	"publisher": "DavidSanders",
 	"repository": "https://github.com/davesque/search-under-cursor",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"engines": {
 		"vscode": "^1.35.0"
 	},
@@ -22,7 +22,22 @@
 				"command": "extension.searchUnderCursor",
 				"title": "Search Under Cursor"
 			}
-		]
+		],
+		"configuration": {
+			"title": "Search Under Cursor",
+			"properties": {
+				"searchUnderCursor.isCaseSensitive": {
+					"type": "boolean",
+					"default": true,
+					"description": "Search is case sensitive"
+				},
+				"searchUnderCursor.matchWholeWord": {
+					"type": "boolean",
+					"default": true,
+					"description": "Search must match whole word"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
